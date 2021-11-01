@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="./script.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="box"></div>
+  <h3>Border-Radius</h3>
+  <div class="result">
+
+  </div>
+  <div class="div">
+    <div>
+      <input type="text" placeholder="TOTAL" oninput="borderRadius(event.target.value)" id="myInput">
+      <button onclick="copiarTexto()">COPIAR TEXTO</button>
+    </div>
+    <div class="inputs">
+      <input type="text" placeholder="Esquerda em Baixo" oninput="borderBottomLeftRadius(event.target.value)"
+        id="myInput2">
+      <input type="text" placeholder="Esquerda em Cima" oninput="borderTopLeftRadius(event.target.value)" id="myInput3">
+      <input type="text" placeholder="Direita em Baixo" oninput="borderBottomRightRadius(event.target.value)"
+        id="myInput4">
+      <input type="text" placeholder="Direita em Cima" oninput="borderTopRightRadius(event.target.value)" id="myInput5">
+    </div>
+  </div>
+</body>
+
+</html>
